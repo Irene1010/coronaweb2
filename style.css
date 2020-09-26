@@ -1,0 +1,114 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+}
+
+.menu{
+  float: left;
+  list-style: none;
+  padding: 5px;
+}
+
+input{
+  width: 70px;
+  height: 40px;
+  background-color: orange;
+  margin-top: 10px;
+}
+
+.image{
+  float: left;
+  padding: 20px;
+  display: block;
+  overflow: auto;
+}
+
+.text{
+  float: left;
+  display: inline-block;
+  width: 50%;
+}
+
+.ina{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.in {
+  width: 250px;
+  padding: 20px;
+  background-color: mediumpurple;
+  border-top: solid 5px #dfdfdf;
+  transition: background-color 0.2s, margin-left 0.5;
+}
+
+.in:hover{
+  background-color: purple;
+  margin-left: 10px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.tv{
+  border: 3px solid darkviolet;
+  margin: 20px 50px 20px 20px;
+  overflow: auto;
+}
+
+.youtube{
+  border: 3px solid mediumorchid;
+  margin: 20px 50px 20px 20px;
+  overflow: auto;
+}
+
+#left{
+  float: left;
+  width: 200px;
+  height: 400px;
+}
+
+aside li{
+  width: 150px;
+  padding: 15px;
+  color: #fff;
+  font-size: 18px;
+  background-color: mediumpurple;
+  border-top: solid 5px #dfdfdf;
+  transition: background-color 0.2s, margin-left 0.5;
+}
+
+aside li:hover{
+  background-color: purple;
+  margin-left: 10px;
+}
+
+content{
+  float: left;
+  width: 1200px;
+}
+
+footer{
+  clear: both;
+}
+
+.post{
+  display: inline-block;
+  padding: 50px;
+}
+
+.ptext{
+  width: 300px;
+  height: 500px;
+  border: 3px solid purple;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
